@@ -1,0 +1,25 @@
+.icons {
+  display: flex;
+  flex-basis: 112px;
+  flex-grow: 14.6;
+  justify-content: space-between;
+  max-width: 112px;
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: $gray;
+    opacity: 0.4;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: $red;
+    }
+  }
+  @media (max-width: 900px) {
+    order: 2;
+  }
+}
+

@@ -1,0 +1,26 @@
+@import "variables";
+@import "mixins";
+.banner {
+  padding-top: 50px;
+}
+
+.banner__flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.banner__text-column {
+  width: $text-column-width;
+}
+.banner__title {
+  @include h1-font;
+}
+.banner__description {
+  @include body1-font;
+}
+
+.banner__description:nth-of-type(2) {
+  margin-top: 1em;
+}
+
+.banner__screenshots {
+}

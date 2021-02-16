@@ -3,11 +3,142 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Все о Германии</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="icons">
+            <div class="icons__icon">
+              <img 
+                src="./images/icon-social-facebook.png" 
+                alt="facebook"
+              >
+            </div>
+            <div class="icons__icon">
+              <img 
+                src="./images/icon-social-twitter.png" 
+                alt="twitter"
+              >
+            </div>
+            <div class="icons__icon">
+              <img 
+                src="./images/icon-social-instagram.png" 
+                alt="instagram"
+              >
+            </div>
+            <div class="icons__icon">
+              <img 
+                src="./images/icon-social-youtube.png" 
+                alt="youtube"
+              >
+            </div>
+
+          </div>
+          <h1 
+            id="colored" 
+            class="header__title"
+          >
+            Все о Г<!--
+            --><span class="header__letter header__letter--red">е</span><!--
+            --><span class="header__letter header__letter--yellow">р</span><!--
+            -->м<!--
+            --><span class="header__letter header__letter--red">а</span><!--
+            --><span class="header__letter header__letter--yellow">н</span><!--
+            -->и<!--
+            --><span class="header__letter header__letter--red">и</span>
+          </h1>
+            <a 
+              href="#contacts" 
+              class="header-anchor-form"
+            >
+              <p>Оставить заявку</p>
+              <div class="header-anchor-form__wrapper">
+              <img 
+                class="header-anchor-form__icon"
+                src="./images/button_icon-red.svg" 
+                alt="button-icon"
+              >
+              <img
+                class="header-anchor-form__icon-hover"
+                src="./images/button_icon-white.svg" 
+                alt="button-icon"
+              >
+              </div>
+              <svg 
+                class="header-anchor-form__svg-border"
+                width="173" 
+                height="40" 
+                viewBox="0 0 173 40" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M154.488 39.5H18.4625C8.51446 39.5 0.450012 30.8032 0.450012 20.075C0.450012 9.34689 8.51446 0.650024 18.4625 0.650024H44.5008C44.8707 0.650024 45.1706 0.949916 45.1706 1.31985C45.1706 1.68979 44.8707 1.98968 44.5008 1.98968H18.4625C9.20053 1.98968 1.69225 10.0868 1.69225 20.075C1.69225 30.0633 9.20053 38.1604 18.4625 38.1604H154.488C163.556 38.1604 170.944 30.3974 171.248 20.6973C171.259 20.3544 171.536 20.075 171.879 20.075C172.222 20.075 172.501 20.3546 172.491 20.6975C172.186 31.1375 164.242 39.5 154.488 39.5Z" fill="#D31900"/>
+              </svg>
+            </a>
+        </div>
+        <div 
+          class="header__current-page"
+          href="#home"
+        >
+          <img
+            class="header__current-page-icon"
+            src="./images/header-icon-home.svg"
+            alt="home"
+          >
+          <p class="header__current-page-text">
+            <span class="header__current-page-dash">-</span> 
+            Сотрудничество
+          </p>
+        </div>
+        <h2 class="header__current-page-title">Сотрудничество</h2>
+      </div>
+    </header>
+    <!--=========================== header end ==============================-->
+    <section class="banner">
+      <div class="container">
+        <div class="banner__flex-wrapper">
+          <div class="banner__text-column">
+            <h2 class="banner__title">Баннерная  реклама</h2>
+            <p class="banner__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus. Sit non egestas vestibulum ultrices dignissim eget. Enim, sed aliquet odio elementum nunc, sem arcu.
+            </p>
+            <p class="banner__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus.
+            </p>
+            <a 
+              href="#contacts" 
+              class="anchor-form"
+            >
+              <p>Оставить заявку</p>
+              <div class="anchor-form__wrapper">
+              </div>
+              <svg 
+                class="anchor-form__svg-border"
+                width="173" 
+                height="40" 
+                viewBox="0 0 173 40" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M154.488 39.5H18.4625C8.51446 39.5 0.450012 30.8032 0.450012 20.075C0.450012 9.34689 8.51446 0.650024 18.4625 0.650024H44.5008C44.8707 0.650024 45.1706 0.949916 45.1706 1.31985C45.1706 1.68979 44.8707 1.98968 44.5008 1.98968H18.4625C9.20053 1.98968 1.69225 10.0868 1.69225 20.075C1.69225 30.0633 9.20053 38.1604 18.4625 38.1604H154.488C163.556 38.1604 170.944 30.3974 171.248 20.6973C171.259 20.3544 171.536 20.075 171.879 20.075C172.222 20.075 172.501 20.3546 172.491 20.6975C172.186 31.1375 164.242 39.5 154.488 39.5Z" fill="#ff9900"/>
+              </svg>
+            </a>
+          </div>
+          <div class="banner__screenshots">
+            <img src="./images/banner-ads_tablet.png" alt="tablet screenshot">
+            <img src="./images/banner-ads_laptop.png" alt="laptop screenshot">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========================== section banner end ==============================-->
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
