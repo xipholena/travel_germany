@@ -1,7 +1,11 @@
 .container {
- // width: 1451px;
   margin: auto;
-  padding: 0 12.2%;
+  padding-left: var(--container-padding-horizontal);
+  padding-right: var(--container-padding-horizontal);
+  @media (min-width: 1921px) {
+    width: var(--frame-figma-width);
+    padding: 0;
+  }
   @media (max-width: 1450px) {
     width: 100%;
   }

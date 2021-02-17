@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 0 30px;
+  padding: 30px 0;
   &__top {
     display: flex;
     justify-content: space-around;
@@ -9,15 +9,19 @@
     border: 1px solid transparent;
     border-bottom-color: $light-gray;
   }
+  &__icons {
+    flex-basis: 112px;
+    flex-grow: 14.6;
+  }
   &__title {
     position: relative;
     flex-basis: 236px;
     flex-grow: 17.1;
-    font-family: "Guerilla";
+    font-family: "Guerilla", sans-serif;
     text-transform: uppercase;
     text-align: center;
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       top: -20px;
       left: 50%;
@@ -28,6 +32,7 @@
       z-index: -1;
     }
   }
+  
   &__letter--red {
     color: $red;
   }
@@ -42,14 +47,11 @@
     width: 178px;
     margin-top: 153px;
   }
-  &__current-page-icon {
-    
-  }
   &__current-page-dash {
     color: $red;
   }
   &__current-page-text {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: $gray;
@@ -64,6 +66,7 @@
     flex-grow: 14.6;
     max-width: 172px;
     max-height: 39px;
+    margin: 0;
     padding: 0 22px;
     font-size: 11px;
     line-height: 13px;
@@ -109,13 +112,16 @@
       order: 3;
       text-align: left;
       &:before {
-        left:0;
+        left: 0;
         top: -5px;
         transform: none;
       }
     }
     &-anchor-form {
       order: 3;
+    }
+    &__icons {
+      order: 2;
     }
   }
   @media (max-width: 375px) {
@@ -137,6 +143,3 @@
     }
   }
 }
-
-
-

@@ -1,0 +1,95 @@
+.contacts {
+  @media (max-width: 900px){
+    &__container {
+      padding-right: var(--container-padding-horizontal);
+    }
+  }  
+}
+
+.contacts__container {
+  padding-right: calc( var(--container-padding-horizontal) + var(--custom-container-padding));
+}
+
+.contacts__flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+}
+.form__flex-wrapper {
+}
+
+.form__column {
+}
+.form__title {
+  @include h1-font;
+  color: $red;
+}
+
+.form__call-to-action {
+  @include body2-font;
+  color: $black;
+}
+
+.form__label-wrapper {
+  position: relative;
+  display: inline-block;
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid $gray;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotateZ(45deg);
+  }
+}
+
+.form__label {
+  display: block;
+}
+
+.form__label-name {
+  @include body2-font;
+  color: $gray;
+}
+
+.form__input {
+  @include body2-font;
+  font-size: 18px;
+  line-height: 21px;
+  border-color: transparent;
+  border-bottom-color: $light-gray;
+}
+
+.form__topic {
+  @include body2-font;
+  font-size: 18px;
+  line-height: 21px;
+  color: $black;
+  border: 2px solid transparent;
+  border-bottom-color: $light-gray;
+  cursor: pointer;
+}
+
+.form__button {
+  @include button;
+  border-color: $red;
+  background-color: #fff;
+  &:hover {
+    background-color: $red;
+  }
+}
+
+.form__message {
+  @include body2-font;
+  padding: 15px;
+  color: $gray;
+  border: 2px solid transparent;
+  border-bottom-color: $light-gray;
+}

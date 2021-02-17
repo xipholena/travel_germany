@@ -12,32 +12,43 @@
     <header class="header">
       <div class="container">
         <div class="header__top">
-          <div class="icons">
-            <div class="icons__icon">
+          <div class="icons header__icons">
+            <a 
+              href="https://www.facebook.com/"
+              class="icons__icon"
+            >
               <img 
                 src="./images/icon-social-facebook.png" 
                 alt="facebook"
               >
-            </div>
-            <div class="icons__icon">
+            </a>
+            <a 
+              href="https://twitter.com/"
+              class="icons__icon"
+            >
               <img 
                 src="./images/icon-social-twitter.png" 
                 alt="twitter"
               >
-            </div>
-            <div class="icons__icon">
+            </a>
+            <a 
+              href="https://www.instagram.com/"
+              class="icons__icon"
+            >
               <img 
                 src="./images/icon-social-instagram.png" 
                 alt="instagram"
               >
-            </div>
-            <div class="icons__icon">
+            </a>
+            <a 
+              href="https://www.youtube.com/"
+              class="icons__icon"
+            >
               <img 
                 src="./images/icon-social-youtube.png" 
                 alt="youtube"
               >
-            </div>
-
+            </a>
           </div>
           <h1 
             id="colored" 
@@ -95,15 +106,19 @@
             Сотрудничество
           </p>
         </div>
-        <h2 class="header__current-page-title">Сотрудничество</h2>
+        <h2 class="header__current-page-title">
+          Сотрудничество
+        </h2>
       </div>
     </header>
     <!--=========================== header end ==============================-->
     <section class="banner">
-      <div class="container">
+      <div class="container banner__container">
         <div class="banner__flex-wrapper">
           <div class="banner__text-column">
-            <h2 class="banner__title">Баннерная  реклама</h2>
+            <h2 class="banner__title">
+              Баннерная  реклама
+            </h2>
             <p class="banner__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
               diam egestas rhoncus. Sit non egestas vestibulum ultrices dignissim eget. Enim, sed aliquet odio elementum nunc, sem arcu.
@@ -114,31 +129,296 @@
             </p>
             <a 
               href="#contacts" 
-              class="anchor-form"
+              class="anchor-form banner__anchor-form"
             >
               <p>Оставить заявку</p>
-              <div class="anchor-form__wrapper">
-              </div>
               <svg 
                 class="anchor-form__svg-border"
-                width="173" 
-                height="40" 
-                viewBox="0 0 173 40" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg" 
+                width="245" 
+                height="56" 
+                viewBox="0 0 245 56" 
+                fill="none"
               >
-                <path d="M154.488 39.5H18.4625C8.51446 39.5 0.450012 30.8032 0.450012 20.075C0.450012 9.34689 8.51446 0.650024 18.4625 0.650024H44.5008C44.8707 0.650024 45.1706 0.949916 45.1706 1.31985C45.1706 1.68979 44.8707 1.98968 44.5008 1.98968H18.4625C9.20053 1.98968 1.69225 10.0868 1.69225 20.075C1.69225 30.0633 9.20053 38.1604 18.4625 38.1604H154.488C163.556 38.1604 170.944 30.3974 171.248 20.6973C171.259 20.3544 171.536 20.075 171.879 20.075C172.222 20.075 172.501 20.3546 172.491 20.6975C172.186 31.1375 164.242 39.5 154.488 39.5Z" fill="#ff9900"/>
+                <path d="M219.35 56H25.6498C11.4838 56 0 43.464 0 28C0 12.536 11.4838 0 25.6498 0H62.7168C63.25 0 63.6823 0.432277 63.6823 0.965517C63.6823 1.49876 63.25 1.93103 62.7168 1.93103H25.6498C12.4608 1.93103 1.76895 13.6025 1.76895 28C1.76895 42.3975 12.4608 54.069 25.6498 54.069H219.35C232.268 54.069 242.79 42.8734 243.218 28.8861C243.232 28.3979 243.627 28 244.116 28C244.604 28 245.001 28.3981 244.987 28.8864C244.559 43.9402 233.245 56 219.35 56Z" fill="#FF9900"/>
               </svg>
             </a>
           </div>
-          <div class="banner__screenshots">
-            <img src="./images/banner-ads_tablet.png" alt="tablet screenshot">
-            <img src="./images/banner-ads_laptop.png" alt="laptop screenshot">
+          <div 
+            class="banner__screenshots"
+          >
+            <div class="banner__laptop-screen">
+              <img 
+                class="banner__image"
+                src="./images/banner-ads_laptop.png" 
+                alt="laptop screenshot"
+              >
+            </div>
+            <div class="banner__tablet-screen">
+              <img
+                class="banner__image"
+                src="./images/banner-ads_tablet.png" 
+                alt="tablet screenshot"
+              >
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!--=========================== section banner end ==============================-->
-    <script src="./scripts/main.js"></script>
+    <section class="native">
+      <div class="container native__container">
+        <div class="native__flex-wrapper">
+          <div class="native__laptop-screen">
+            <img 
+              class="native__image"
+              src="./images/native_laptop.png" 
+              alt="laptop screen"
+            >
+          </div>
+          <div class="native__text-column">
+            <h2 class="native__title">
+              Нативная реклама
+            </h2>
+            <p class="native__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus. Sit non egestas vestibulum ultrices dignissim eget. Enim, sed aliquet odio elementum nunc, sem arcu.
+            </p>
+            <p class="native__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus.
+            </p>
+            <a 
+              href="#contacts" 
+              class="anchor-form native__anchor-form"
+            >
+              <p>Оставить заявку</p>
+              <svg 
+                class="anchor-form__svg-border"
+                xmlns="http://www.w3.org/2000/svg" 
+                width="245" 
+                height="56" 
+                viewBox="0 0 245 56" 
+                fill="none"
+              >
+                <path d="M219.35 56H25.6498C11.4838 56 0 43.464 0 28C0 12.536 11.4838 0 25.6498 0H62.7168C63.25 0 63.6823 0.432277 63.6823 0.965517C63.6823 1.49876 63.25 1.93103 62.7168 1.93103H25.6498C12.4608 1.93103 1.76895 13.6025 1.76895 28C1.76895 42.3975 12.4608 54.069 25.6498 54.069H219.35C232.268 54.069 242.79 42.8734 243.218 28.8861C243.232 28.3979 243.627 28 244.116 28C244.604 28 245.001 28.3981 244.987 28.8864C244.559 43.9402 233.245 56 219.35 56Z" fill="#FF9900"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========================== section native end ==============================-->
+    <section class="service">
+      <div class="container">
+        <div class="service__flex-wrapper">
+          <div class="service__text-column">
+            <h2 class="service__title">
+              Реклама вашего сервиса
+            </h2>
+            <p class="service__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus. Sit non egestas vestibulum ultrices dignissim eget. Enim, sed aliquet odio elementum nunc, sem arcu.
+            </p>
+            <p class="service__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus bibendum sed venenatis nibh. Ultrices consectetur viverra sit neque enim mi, 
+              diam egestas rhoncus.
+            </p>
+            <a 
+              href="#contacts" 
+              class="anchor-form service__anchor-form"
+            >
+              <p>Оставить заявку</p>
+              <svg 
+                class="anchor-form__svg-border"
+                xmlns="http://www.w3.org/2000/svg" 
+                width="245" 
+                height="56" 
+                viewBox="0 0 245 56" 
+                fill="none"
+              >
+                <path d="M219.35 56H25.6498C11.4838 56 0 43.464 0 28C0 12.536 11.4838 0 25.6498 0H62.7168C63.25 0 63.6823 0.432277 63.6823 0.965517C63.6823 1.49876 63.25 1.93103 62.7168 1.93103H25.6498C12.4608 1.93103 1.76895 13.6025 1.76895 28C1.76895 42.3975 12.4608 54.069 25.6498 54.069H219.35C232.268 54.069 242.79 42.8734 243.218 28.8861C243.232 28.3979 243.627 28 244.116 28C244.604 28 245.001 28.3981 244.987 28.8864C244.559 43.9402 233.245 56 219.35 56Z" fill="#FF9900"/>
+              </svg>
+            </a>
+          </div>
+          <div class="service__screenshots">
+            <div class="service__screen">
+              <img
+                class="service__image" 
+                src="./images/service-ads_screen-1.png" 
+                alt="screenshot"
+              >
+            </div>
+            <div class="service__screen">
+              <img
+                class="service__image" 
+                src="./images/service-ads_screen-2.png" 
+                alt="screenshot"
+              >
+            </div>
+            <div class="service__screen">
+              <img
+                class="service__image" 
+                src="./images/service-ads_screen-3.png" 
+                alt="screenshot"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========================== section service end ==============================-->
+    <section 
+      class="contacts" 
+      id="contacts"
+    >
+      <div class="container contacts__container">
+        <div class="contacts__flex-wrapper">
+          <form 
+            id="form"
+            action="/"
+            class="form"
+            method="POST"
+          >
+            <h2 class="form__title">
+              Обратная связь
+
+            </h2>
+            <p class="form__call-to-action">
+              Оставьте свое сообщение и мы свяжемся с Вами в ближайшее время.
+            </p>
+              <div class="form__flex-wrapper">
+                <div class="form__column">
+                  <label class="form__label">
+                    <p class="form__label-name">Имя, фамилия</p>
+                    <input
+                      name="name"
+                      type="text" 
+                      class="form__input"
+                    >
+                  </label>
+                  
+                  <label class="form__label">
+                    <p class="form__label-name">E-mail</p>
+                    <input
+                      name="email"
+                      type="text" 
+                      class="form__input"
+                    >
+                  </label>
+                </div>
+                <div class="form__column">
+                  <label class="form__label">
+                    <p class="form__label-name">Тема</p>
+                    <div class="form__label-wrapper">
+                      <select class="form__topic">
+                        <option>Хочу стать автором</option>
+                        <option>Хочу заказать тур</option>
+                        <option>Другое</option>
+                      </select>
+                    </div>
+                  </label>
+
+                  <label class="form__label">
+                    <textarea class="form__message"
+                      cols="30" 
+                      rows="10"
+                    >Ваше сообщение...</textarea>
+                  </label>
+                </div>
+              </div>
+            </form>
+          <img 
+            src="./images/contacts_gates.png" 
+            alt="девушка на фоне бранденбургских ворот"
+          >
+        </div>
+        <button
+            class="form__button"
+            type="submit"
+        >
+            <p>Отправить</p>
+            <svg 
+                class="anchor-form__svg-border"
+                xmlns="http://www.w3.org/2000/svg" 
+                width="245" 
+                height="56" 
+                viewBox="0 0 245 56" 
+                fill="none"
+              >
+                <path d="M219.35 56H25.6498C11.4838 56 0 43.464 0 28C0 12.536 11.4838 0 25.6498 0H62.7168C63.25 0 63.6823 0.432277 63.6823 0.965517C63.6823 1.49876 63.25 1.93103 62.7168 1.93103H25.6498C12.4608 1.93103 1.76895 13.6025 1.76895 28C1.76895 42.3975 12.4608 54.069 25.6498 54.069H219.35C232.268 54.069 242.79 42.8734 243.218 28.8861C243.232 28.3979 243.627 28 244.116 28C244.604 28 245.001 28.3981 244.987 28.8864C244.559 43.9402 233.245 56 219.35 56Z" fill="#d31900"/>
+              </svg>
+        </button>
+      </div>
+    </section>
+    <!--=========================== section contacts end ==============================-->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__title">Всё о Германии</p>
+        <div class="icons">
+          <a 
+            href="https://www.facebook.com/"
+            class="icons__icon footer__light-bg-wrapper"
+          >
+            <img 
+              class="footer__dark-icon"
+              src="./images/icon-social-facebook.png" 
+              alt="facebook"
+            >
+          </a>
+          <a
+            href="https://twitter.com/"
+            class="icons__icon footer__light-bg-wrapper"
+          >
+            <img 
+              class="footer__dark-icon"
+              src="./images/icon-social-twitter.png" 
+              alt="twitter"
+            >
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="icons__icon footer__light-bg-wrapper"
+          >
+            <img 
+              class="footer__dark-icon"
+              src="./images/icon-social-instagram.png" 
+              alt="instagram"
+            >
+          </a>
+          <a
+          href="https://www.youtube.com/"
+            class="icons__icon footer__light-bg-wrapper"
+          >
+            <img 
+              class="footer__dark-icon"
+              src="./images/icon-social-youtube.png" 
+              alt="youtube"
+            >
+          </a>
+        </div>
+        <a 
+          title="Найдите нас на  Google maps"
+          class="footer__contact-data footer__address" 
+          href="https://www.google.com/maps/place/An+der+Stadtmauer+23,+65191+Wiesbaden,+%D0%9D%D1%96%D0%BC%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B0/data=!4m2!3m1!1s0x47bdbc371fefb749:0xeee27e16ba30f6fd?sa=X&ved=2ahUKEwi2pZKbgu_uAhXPs4sKHcD2B24Q8gEwAHoECAQQAQ"
+        >
+          An der Stadtmauer 23,<br/> 65191 Wiesbaden, Germany
+        </a>
+        <a
+          title="Позвоните нам"
+          class="footer__contact-data"
+          href="tel:+49(0)6112052100"
+        >
+          +49 (0) 611 - 205 21 00
+        </a>
+        <a
+          title="Напишите нам"
+          class="footer__contact-data"
+          href="mailto:info@worldimmotrade.com"
+        >
+          info@worldimmotrade.com
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

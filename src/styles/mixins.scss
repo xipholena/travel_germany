@@ -2,7 +2,7 @@
 @import "variables";
 
 @mixin h1-font {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 36px;
   line-height: 44px;
@@ -14,7 +14,7 @@
 }
 
 @mixin h2-font {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
@@ -26,7 +26,7 @@
 }
 
 @mixin h3-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 40px;
@@ -34,7 +34,7 @@
 }
 
 @mixin body1-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
@@ -46,7 +46,7 @@
 }
 
 @mixin body2-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -59,6 +59,8 @@
   justify-content: space-around;
   width: 245px;
   height: 56px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -79,7 +81,7 @@
 }
 
 @mixin footer-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;

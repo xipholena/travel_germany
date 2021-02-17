@@ -6,3 +6,20 @@
 @import "icons";
 @import "container";
 @import "banner";
+@import "native";
+@import "service";
+@import "contacts";
+@import "form";
+@import "footer";
+
+:root {
+  --container-padding-horizontal: 12.2%;
+  --frame-figma-width: 1451px;
+  --header-top-row-width: 1332px;
+  --custom-container-padding: calc(
+    (var(--frame-figma-width) - var(--header-top-row-width)) / 2);
+}
+
+* {
+  scroll-behavior: smooth;
+}
