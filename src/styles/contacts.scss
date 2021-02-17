@@ -1,0 +1,26 @@
+.contacts {
+  padding: 50px 0;
+
+  &__container {
+    padding-right: calc(
+      var(--container-padding-horizontal) + var(--custom-container-padding));
+  }
+
+  &__flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: 1921px) {
+    &__container {
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 900px) {
+    &__container {
+      padding-right: var(--container-padding-horizontal);
+    }
+  }
+}

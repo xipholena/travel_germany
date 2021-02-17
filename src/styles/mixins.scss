@@ -1,0 +1,105 @@
+@import "fonts";
+@import "variables";
+
+@mixin h1-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: $black;
+
+  @media (max-width: 375px) {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@mixin h2-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: $black;
+
+  @media (max-width: 375px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@mixin h3-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: $black;
+}
+
+@mixin body1-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: $black;
+
+  @media (max-width: 375px) {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@mixin body2-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 245px;
+  height: 56px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: $red;
+  white-space: nowrap;
+  border: 1px solid $yellow;
+  border-radius: 34px;
+  transition: color 0.3s, background-color 0.3s;
+  &:hover {
+    color: #fff;
+    background-color: $yellow;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+
+@mixin footer-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: $white;
+}
+
+@mixin icon-social-media {
+  width: 26px;
+  height: 26px;
+  background-color: $gray;
+  color: #fff;
+  opacity: 0.4;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: $red;
+  }
+}

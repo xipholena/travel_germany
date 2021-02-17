@@ -1,0 +1,19 @@
+.container {
+  margin: auto;
+  padding-left: var(--container-padding-horizontal);
+  padding-right: var(--container-padding-horizontal);
+
+  @media (min-width: 1921px) {
+    width: var(--frame-figma-width);
+    padding: 0;
+  }
+
+  @media (max-width: 1450px) {
+    width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0 20px;
+  }
+
+}

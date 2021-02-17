@@ -1,0 +1,22 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 112px;
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: $gray;
+    opacity: 0.4;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $red;
+    }
+  }
+}
