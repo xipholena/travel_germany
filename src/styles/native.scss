@@ -1,14 +1,17 @@
 .native {
   padding-top: 50px;
   background-color: $red;
+
   &__container {
     padding-right: calc(
       var(--container-padding-horizontal) + var(--custom-container-padding));
   }
+
   &__flex-wrapper {
     display: flex;
     justify-content: space-between;
   }
+
   &__laptop-screen {
     position: relative;
     &:before {
@@ -22,13 +25,16 @@
       border: 2.5px solid $red;
     }
   }
+
   &__image {
     position: absolute;
     bottom: 0;
   }
+
   &__text-column {
     width: $text-column-width;
   }
+
   &__title {
     @include h1-font;
     color: #fff;
@@ -46,6 +52,7 @@
   &__description:nth-of-type(2) {
     margin-top: 1em;
   }
+
   &__anchor-form {
     color: #fff;
   }
@@ -69,9 +76,11 @@
       flex-direction: column-reverse;
       align-items: center;
     }
+
     &__text-column {
       width: 100%;
     }
+
     &__image {
       position: static;
       margin-bottom: -5px;
@@ -88,6 +97,7 @@
     &__laptop-screen {
       width: 100%;
     }
+
     &__image {
       margin: 0;
       width: 100%;

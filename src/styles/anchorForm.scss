@@ -1,13 +1,15 @@
-
 .anchor-form {
   @include button;
   padding: 0 22px;
+
   &__wrapper {
     position: relative;
   }
+
   &__icon {
     transition: opacity 0.3s;
   }
+
   &__icon-hover {
     position: absolute;
     top: 0;
@@ -15,29 +17,34 @@
     opacity: 0;
     transition: opacity 0.3s;
   }
+
   &__svg-border {
     position: absolute;
     top: -2px;
     left: -1px;
     transform: scale(1.01);
   }
+
   &:hover .anchor-form__icon {
     opacity: 0;
   }
+
   &:hover .anchor-form__icon-hover {
     opacity: 1;
   }
+
   @media (max-width: 900px) {
     order: 3;
   }
+
   @media (max-width: 375px) {
     min-height: 39px;
   }
+
   @media (max-width: 320px) {
     width: 100%;
     &__svg-border {
       display: none;
     }
-
   }
 }
